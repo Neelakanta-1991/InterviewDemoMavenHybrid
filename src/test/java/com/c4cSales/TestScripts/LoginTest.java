@@ -17,7 +17,7 @@ public class LoginTest {
 		
 		
 		ExcelReader reader = new ExcelReader();
-		ArrayList testData = reader.testData("C:\\Users\\C5216839\\Desktop\\Pankaj Sir Academy\\c4cAutomationTestData\\LoginTestSuite.xlsx", 0);
+		ArrayList testData = reader.testData("C:\\Users\\C5216839\\Desktop\\MyPractice\\c4cAutomationTestData\\LoginTestSuite.xlsx", 0);
 		
 		for (int i = 0 ; i < testData.size() ; i++) {
 				if(testData.get(i).equals("OpenBrowser")) {
