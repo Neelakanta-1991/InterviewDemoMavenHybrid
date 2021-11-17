@@ -1,0 +1,15 @@
+
+#Login Page Objects
+username = //*[@id='USERNAME_FIELD-inner']
+password = //*[@id='PASSWORD_FIELD-inner']
+signIn = //*[@id='LOGIN_LINK_CONTENT']
+
+
+#Creating Leads Objects
+clickSalesDD = //*[@id='__panel7-CollapsedImg']
+clickLeadsLink = //*[@id='__link38']
+clickAddLeadIcon = //*[@id='buttonn7vzZ64G6K2skiiLLncdx0_140-img']
+createLeadPage-Name = //*[@id='inputfieldav2Clb0RHq_TkSRdy2j80m_179-inner']
+createLeadPage-Company = //*[@id='inputfield4ltELp2BkqYCgaajtbw6uW_191-inner']
+createLeadPage-Owner = //*[@id='objectvalueselectorlOws41O3mqEtAPbeUAX9QW_662-inputField-inner']
+createLeadPage-SaveButton = //*[@id='buttonbRALgj7NAKMeAP4RpO_stEG_981-button-BDI-content']
